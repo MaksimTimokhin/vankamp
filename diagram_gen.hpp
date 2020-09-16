@@ -127,5 +127,5 @@ private:
     }
 
     const Group &group_;
-    std::mt19937 generator_;
+    std::mt19937 generator_{static_cast<size_t>(time(0))};
 };
