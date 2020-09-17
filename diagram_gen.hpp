@@ -134,5 +134,7 @@ private:
   }
 
   const Group &group_;
-  std::mt19937 generator_{static_cast<size_t>(time(0))};
+
+  std::random_device rd_;
+  std::mt19937 generator_{rd_()};
 };
