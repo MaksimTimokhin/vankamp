@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <graphviz/gvc.h>
 
 struct LabeledEdge {
     LabeledEdge() {
