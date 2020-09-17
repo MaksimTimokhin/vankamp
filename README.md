@@ -7,7 +7,8 @@ JB project test task
 
 Должен быть предустановлен пакет graphviz.
 
-```git clone https://github.com/MaksimTimokhin/vankamp.git
+```
+ git clone https://github.com/MaksimTimokhin/vankamp.git
  cd vankamp
  mkdir build
  cd build
