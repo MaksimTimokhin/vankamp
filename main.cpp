@@ -1,5 +1,3 @@
-#include <graphviz/gvc.h>
-
 #include <diagram_gen.hpp>
 #include <graph/labeled_graph.hpp>
 #include <iostream>
